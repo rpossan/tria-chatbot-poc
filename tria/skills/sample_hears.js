@@ -7,6 +7,14 @@ module.exports = function(controller) {
 
   });
 
+  controller.hears('portugues', 'message_received', function (bot, message) {
+    bot.reply(message, 'Agora estamos falando em português!');
+  });
+
+  controller.hears('english', 'message_received', function (bot, message) {
+    bot.reply(message, 'Now we are talking in english!');
+  });
+
   controller.hears('typing','message_received', function(bot, message) {
 
     bot.reply(message,{
