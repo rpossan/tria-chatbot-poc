@@ -2,18 +2,21 @@ from docx import Document
 import numpy
 
 newfile = open('pdf.txt', 'w', encoding = 'utf8')
-frase = "acesso login"
+frase = "acesso ao login"
 frase2 = frase.split(' ')
 size = len(frase2)
+prepos = ["bom dia", "boa tarde", "boa noite", "a", "ao", "à", "até", "após", "ante", "com", "conforme", "contra", "de", "da", "do", "desde", "durante", "em", "entre", "mediante", "para", "perante", "por", "salvo", "sem", "sob", "sobre", "trás"]
 
 matriz = numpy.zeros(shape=(255,1280))
 
 paragraph = 0
 paragraph_total = 0
 j = 1
+num_check = 0;
 
 document = Document('manual_rps_V19R01.docx')
 full_size = len(document.paragraphs)
+size_prepos = len(prepos)
 print ("Os parágrafos são:\n")
 
 for i in range (0,size):
@@ -21,14 +24,21 @@ for i in range (0,size):
     matriz [i][0] = i + 1
     j=1
     for para in document.paragraphs:
-        ##print (frase2[i])
-        ##textfinder = frase2[i]
-        if frase2[i] in para.text:
-            matriz [i][j] = paragraph
-            print(para.text + " - " + str(paragraph))
-            newfile.write(para.text+"\n")
-            j = j + 1;
+        for check_prepos in range (0,size_prepos):
+            if frase2[i] == prepos[check_prepos]:
+                num_check = 1
+                break
+        if num_check == 0:
+            if frase2[i] in para.text:
+                matriz [i][j] = paragraph
+                print(para.text + " - " + str(paragraph))
+                newfile.write(para.text+"\n")
+                j = j + 1
+        else:
+            num_check = 0
+            break
         paragraph = paragraph + 1;
+
     print ("Fim para "+frase2[i]+"\n")
 
     if (paragraph_total <= j):
