@@ -1,3 +1,5 @@
+![](https://github.com/rpossan/files/blob/master/tria/demo.png)
+
 # Botkit Anywhere
 
 Embed a bot in any web page or app with Botkit for the Web.
