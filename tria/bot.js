@@ -63,7 +63,7 @@ console.log('I AM ONLINE! COME TALK TO ME: http://localhost:' + (process.env.POR
 
 function usage_tip() {
     console.log('~~~~~~~~~~');
-    console.log('Botkit Starter Kit');
+  console.log('TRIA - Thomson Reuters Intelligent Agent');
     console.log('Execute your bot application like this:');
     console.log('PORT=3000 node bot.js');
     console.log('~~~~~~~~~~');

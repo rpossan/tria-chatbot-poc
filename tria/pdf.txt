@@ -1,0 +1,40 @@
+	Introdução: essa seção fornece informações básicas de comércio exterior e como operar o módulo, incluindo configurações iniciais de acesso, tipos de tela e barras de ferramentas;
+Consulte o link Requisitos de Navegador na página de acesso ao sistema para mais informações.
+Caso tenha esquecido a senha, informe o Usuário de acesso e clique na opção "Não consegue acessar sua conta?". Na tela Recuperar Senha, confirme o usuário e clique em Ok. Feito isso, o sistema atribui uma senha temporária para possibilitar o acesso ao sistema. Essa senha é enviada para o e-mail do usuário, que deve alterá-la no acesso seguinte. 
+Certique-se de que a configuração de e-mail esteja correta para que o sistema possa enviar a senha temporária. Este e-mail deve ser configurado pelo administrador do sistema no módulo Administração. Caso o login de acesso esteja inválido, procure o administrador do sistema.
+Para garantir ainda mais proteção para o seu negócio, o ONESOURCE™ Global Trade disponibiliza a Autenticação Multifator e Autenticação de Questões de Segurança, que consistem em camadas adicionais de segurança para acesso aos módulos de comércio exterior.
+Uma vez configurada, a Autenticação Multifator é solicitada na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a seguinte mensagem será exibida:
+Poderá ser solicitada permissão de acesso à câmera. Nesse caso, clique em Permitir.
+7.	Clique em Fechar. Neste momento, a validação de acesso ao ONESOURCE™ Global Trade será enviada ao seu dispositivo.
+1.	Na tela de login do ONESOURCE™ Global Trade, informe seus dados de acesso e clicar em Entrar. Em seguida, a seguinte mensagem será exibida:
+2.	Uma notificação será enviada para seu dispositivo móvel. Confirme os dados e aprove o acesso.
+3.	Se necessário, envie novamente a autenticação por meio do botão Reenviar ou Digite um código do aplicativo.
+Para gerar um código de acesso, clique em Gerar um Código no aplicativo Thomson Reuters Authenticator.
+As perguntas de segurança são configuradas na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a Autenticação de Questões de Segurança exibirá a seguinte mensagem:
+1.	Ao informar os dados de acesso e clicar em Entrar, a Autenticação de Questões de Segurança exibirá a seguinte mensagem:
+Caso o usuário possua acesso a apenas um módulo ONESOURCE™ Global Trade, sua tela inicial será aberta automaticamente.
+Apresenta dados informativos do Usuário (Nome, E-mail e Localidade) e facilita o acesso a configurações de segurança, bem como log de erros.
+Permite que o usuário altere sua senha de acesso ao módulo ONESOURCE™ Global Trade. Ao clicar no presente botão, é exibida uma nova tela com as seguintes informações:
+Seguindo a lógica das fases do processo comercial, as opções do menu do sistema dão acesso às funcionalidades. Essas funcionalidades são apresentadas em três tipos de tela que podem possuir uma barra de ferramentas padrão.
+Operacionalmente, depois de preencher todos os campos de filtro desejados, clique em Executa Consulta para ter acesso a tela de Resultados ou em Limpar, para apagar todos os valores preenchidos. 
+Operacionalmente, depois de marcar o checkbox de um dos registros listados, clique em um dos botões da barra de ferramentas de padrão para ter acesso ao registro marcado. Um duplo clique na linha de um dos registros dá acesso à tela de cadastro.
+Em todos os pontos dos sistemas em que for necessário informar ou consultar dados de parceiros (importadores, exportadores, fabricantes, despachantes, etc.), serão apresentados apenas os parceiros vinculados às organizações a que o usuário possui acesso.
+A configuração das organizações as quais o usuário possui acesso é realizada na tela de Profile de Segurança no módulo Administração (Menu Segurança > Profile de Segurança).
+10. A tela Convert to Chart será aberta. Inicialmente, a seção Resources exibirá uma lista apenas com os campos da business view que constam na tabela do relatório. Para ter acesso a todos os campos da business view, clique em Show All Fields...;
+Clique neste menu para ter acesso a este manual (formato HMTL).
+O Webservice de entrada de dados de parceiro do RPS possui algumas especificações. Contate o administrador do sistema para ter acesso às definições de interface para a transferência de dados de parceiro, do ERP para o ONESOURCE™ Global Trade. O serviço utilizado para essa comunicação é o TrSwPartnerItApiServiceImplPort.
+Se a mensagem de Autenticação Multifator ou Autenticação de Questões de Segurança for exibida, será necessário autenticar o login para acessar o ONESOURCE™ Global Trade. Para isso, siga os passos descritos nos tópicos Autenticação Multifator e Autenticação de Questões de Segurança.
+Certique-se de que a configuração de e-mail esteja correta para que o sistema possa enviar a senha temporária. Este e-mail deve ser configurado pelo administrador do sistema no módulo Administração. Caso o login de acesso esteja inválido, procure o administrador do sistema.
+A Autenticação Multifator exige que o usuário confirme sua tentativa de login por meio do aplicativo Thomson Reuters Authenticator. 
+Uma vez configurada, a Autenticação Multifator é solicitada na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a seguinte mensagem será exibida:
+8.	Confirme os dados em seu smartphone e aprove o login.
+A autenticação multifator estará pronta para uso. Uma vez configurada, será exigida a cada login. 
+Os passos a seguir devem ser seguidos a partir do segundo login no ONESOURCE™ Global Trade por meio da Autenticação Multifator.
+1.	Na tela de login do ONESOURCE™ Global Trade, informe seus dados de acesso e clicar em Entrar. Em seguida, a seguinte mensagem será exibida:
+Por fim, o login será concluído e a tela inicial do ONESOURCE™ Global Trade será exibida.
+A Autenticação de Questões de Segurança exige que o usuário responda corretamente a uma pergunta de segurança para fazer login no ONESOURCE™ Global Trade.
+As perguntas de segurança são configuradas na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a Autenticação de Questões de Segurança exibirá a seguinte mensagem:
+Por fim, o login será concluído e a tela inicial do ONESOURCE™ Global Trade será exibida.
+Uma vez que a Autenticação de Questões de Segurança foi configurada, o usuário deverá responder corretamente uma pergunta de segurança toda vez que realizar o login no ONESOURCE™ Global Trade.
+O login será concluído e a tela inicial do ONESOURCE™ Global Trade será exibida.
+Para configurar o endereço do destino SOAP e informações de login:

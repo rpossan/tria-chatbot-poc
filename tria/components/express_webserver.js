@@ -5,6 +5,7 @@ var debug = require('debug')('botkit:webserver');
 var http = require('http');
 var fs = require('fs');
 var hbs = require('express-hbs');
+var shell = require('shelljs');
 
 
 module.exports = function(controller) {

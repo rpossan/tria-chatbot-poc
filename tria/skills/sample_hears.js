@@ -1,6 +1,10 @@
 module.exports = function(controller) {
 
 
+  controller.hears('human', 'message_received', function (bot, message) {
+    bot.reply(message, '[Click to chat with humans!](https://chatgem.herokuapp.com).');
+  });
+
   controller.hears('test','message_received', function(bot, message) {
 
     bot.reply(message,'I heard a test');

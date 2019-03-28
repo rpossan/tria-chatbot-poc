@@ -33,10 +33,6 @@ module.exports = function(controller) {
           text: 'I can point you to resources, and connect you with experts who can help.',
           quick_replies: [
             {
-              title: 'Call Human!',
-              payload: 'human',
-            },
-            {
               title: 'Read the Docs',
               payload: 'documentation',
             },
@@ -50,6 +46,13 @@ module.exports = function(controller) {
             },
           ]
         },[
+          {
+            pattern: 'human',
+            callback: function (res, convo) {
+              convo.gotoThread('human');
+              convo.next();
+            }
+          },
           {
             pattern: 'documentation',
             callback: function(res, convo) {
@@ -120,6 +123,7 @@ module.exports = function(controller) {
         convo.addMessage({
           action: 'default'
         }, 'contact');
+        
 
       });
 
