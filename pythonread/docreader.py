@@ -2,10 +2,10 @@ from docx import Document
 import numpy
 
 newfile = open('pdf.txt', 'w', encoding = 'utf8')
-frase = "acesso ao login"
+frase = "olá, não consigo acessar minha conta"
 frase2 = frase.split(' ')
 size = len(frase2)
-prepos = ["bom dia", "boa tarde", "boa noite", "a", "ao", "à", "até", "após", "ante", "com", "conforme", "contra", "de", "da", "do", "desde", "durante", "em", "entre", "mediante", "para", "perante", "por", "salvo", "sem", "sob", "sobre", "trás"]
+prepos = ["olá", "ola", "oi", "bom", "dia", "boa", "tarde", "noite", "a", "o", "as", "os", "e", "ao", "aos", "à", "até", "não", "após", "ante", "com", "conforme", "contra", "de", "da", "do", "desde", "durante", "em", "entre", "mediante", "para", "perante", "por", "salvo", "sem", "sob", "sobre", "trás", "antes", "depois"]
 
 matriz = numpy.zeros(shape=(255,1280))
 
@@ -39,7 +39,7 @@ for i in range (0,size):
             break
         paragraph = paragraph + 1;
 
-    print ("Fim para "+frase2[i]+"\n")
+    print ("Fim para " + frase2[i] + "\n")
 
     if (paragraph_total <= j):
         paragraph_total = j
@@ -75,13 +75,10 @@ for k in range (0, size):
 
 print (final_count)
 print (list)
-print (len(list))
+
+print (str(len(list))+"\n")
 aux = len(list)
 
-parag = 1
-document = Document('manual_rps_V19R01.docx')
-for p in document.paragraphs:
-    for q in range (0, aux):
-        if parag == list[q] + 1:
-            print(p.text)
-    parag = parag + 1
+for q in range (0, aux):
+    pos = list[q]
+    print(str(pos)+ " - " + document.paragraphs[int(pos)].text + "\n")
