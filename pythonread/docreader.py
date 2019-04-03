@@ -14,7 +14,7 @@ paragraph_total = 0
 j = 1
 num_check = 0;
 
-document = Document('manual_rps_V19R01.docx')
+document = Document('..\pythonread\manual_rps_V19R01.docx')
 full_size = len(document.paragraphs)
 size_prepos = len(prepos)
 print ("Os parágrafos são:\n")
@@ -31,13 +31,15 @@ for i in range (0,size):
         if num_check == 0:
             if frase2[i] in para.text:
                 matriz [i][j] = paragraph
-                print(para.text + " - " + str(paragraph))
+                resp = para.text + " - " + str(paragraph)
+                print(resp.encode("utf-8"))
                 newfile.write(para.text+"\n")
                 j = j + 1
         else:
             num_check = 0
             break
         paragraph = paragraph + 1;
+        
 
     print ("Fim para "+frase2[i]+"\n")
 
@@ -79,7 +81,7 @@ print (len(list))
 aux = len(list)
 
 parag = 1
-document = Document('manual_rps_V19R01.docx')
+document = Document('..\pythonread\manual_rps_V19R01.docx')
 for p in document.paragraphs:
     for q in range (0, aux):
         if parag == list[q] + 1:
