@@ -1,40 +1,38 @@
-	Introdução: essa seção fornece informações básicas de comércio exterior e como operar o módulo, incluindo configurações iniciais de acesso, tipos de tela e barras de ferramentas;
-Consulte o link Requisitos de Navegador na página de acesso ao sistema para mais informações.
-Caso tenha esquecido a senha, informe o Usuário de acesso e clique na opção "Não consegue acessar sua conta?". Na tela Recuperar Senha, confirme o usuário e clique em Ok. Feito isso, o sistema atribui uma senha temporária para possibilitar o acesso ao sistema. Essa senha é enviada para o e-mail do usuário, que deve alterá-la no acesso seguinte. 
-Certique-se de que a configuração de e-mail esteja correta para que o sistema possa enviar a senha temporária. Este e-mail deve ser configurado pelo administrador do sistema no módulo Administração. Caso o login de acesso esteja inválido, procure o administrador do sistema.
-Para garantir ainda mais proteção para o seu negócio, o ONESOURCE™ Global Trade disponibiliza a Autenticação Multifator e Autenticação de Questões de Segurança, que consistem em camadas adicionais de segurança para acesso aos módulos de comércio exterior.
-Uma vez configurada, a Autenticação Multifator é solicitada na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a seguinte mensagem será exibida:
-Poderá ser solicitada permissão de acesso à câmera. Nesse caso, clique em Permitir.
-7.	Clique em Fechar. Neste momento, a validação de acesso ao ONESOURCE™ Global Trade será enviada ao seu dispositivo.
-1.	Na tela de login do ONESOURCE™ Global Trade, informe seus dados de acesso e clicar em Entrar. Em seguida, a seguinte mensagem será exibida:
-2.	Uma notificação será enviada para seu dispositivo móvel. Confirme os dados e aprove o acesso.
-3.	Se necessário, envie novamente a autenticação por meio do botão Reenviar ou Digite um código do aplicativo.
-Para gerar um código de acesso, clique em Gerar um Código no aplicativo Thomson Reuters Authenticator.
-As perguntas de segurança são configuradas na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a Autenticação de Questões de Segurança exibirá a seguinte mensagem:
-1.	Ao informar os dados de acesso e clicar em Entrar, a Autenticação de Questões de Segurança exibirá a seguinte mensagem:
-Caso o usuário possua acesso a apenas um módulo ONESOURCE™ Global Trade, sua tela inicial será aberta automaticamente.
-Apresenta dados informativos do Usuário (Nome, E-mail e Localidade) e facilita o acesso a configurações de segurança, bem como log de erros.
-Permite que o usuário altere sua senha de acesso ao módulo ONESOURCE™ Global Trade. Ao clicar no presente botão, é exibida uma nova tela com as seguintes informações:
-Seguindo a lógica das fases do processo comercial, as opções do menu do sistema dão acesso às funcionalidades. Essas funcionalidades são apresentadas em três tipos de tela que podem possuir uma barra de ferramentas padrão.
-Operacionalmente, depois de preencher todos os campos de filtro desejados, clique em Executa Consulta para ter acesso a tela de Resultados ou em Limpar, para apagar todos os valores preenchidos. 
-Operacionalmente, depois de marcar o checkbox de um dos registros listados, clique em um dos botões da barra de ferramentas de padrão para ter acesso ao registro marcado. Um duplo clique na linha de um dos registros dá acesso à tela de cadastro.
-Em todos os pontos dos sistemas em que for necessário informar ou consultar dados de parceiros (importadores, exportadores, fabricantes, despachantes, etc.), serão apresentados apenas os parceiros vinculados às organizações a que o usuário possui acesso.
-A configuração das organizações as quais o usuário possui acesso é realizada na tela de Profile de Segurança no módulo Administração (Menu Segurança > Profile de Segurança).
-10. A tela Convert to Chart será aberta. Inicialmente, a seção Resources exibirá uma lista apenas com os campos da business view que constam na tabela do relatório. Para ter acesso a todos os campos da business view, clique em Show All Fields...;
-Clique neste menu para ter acesso a este manual (formato HMTL).
-O Webservice de entrada de dados de parceiro do RPS possui algumas especificações. Contate o administrador do sistema para ter acesso às definições de interface para a transferência de dados de parceiro, do ERP para o ONESOURCE™ Global Trade. O serviço utilizado para essa comunicação é o TrSwPartnerItApiServiceImplPort.
+Saiba como acessar o módulo ONESOURCE™ Global Trade e realizar as operações básicas do sistema, como utilizar a tela inicial e as barras de ferramentas padrão.
+Como acessar o ONESOURCE™ Global Trade
+Para acessar o sistema:
 Se a mensagem de Autenticação Multifator ou Autenticação de Questões de Segurança for exibida, será necessário autenticar o login para acessar o ONESOURCE™ Global Trade. Para isso, siga os passos descritos nos tópicos Autenticação Multifator e Autenticação de Questões de Segurança.
-Certique-se de que a configuração de e-mail esteja correta para que o sistema possa enviar a senha temporária. Este e-mail deve ser configurado pelo administrador do sistema no módulo Administração. Caso o login de acesso esteja inválido, procure o administrador do sistema.
-A Autenticação Multifator exige que o usuário confirme sua tentativa de login por meio do aplicativo Thomson Reuters Authenticator. 
-Uma vez configurada, a Autenticação Multifator é solicitada na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a seguinte mensagem será exibida:
-8.	Confirme os dados em seu smartphone e aprove o login.
-A autenticação multifator estará pronta para uso. Uma vez configurada, será exigida a cada login. 
-Os passos a seguir devem ser seguidos a partir do segundo login no ONESOURCE™ Global Trade por meio da Autenticação Multifator.
-1.	Na tela de login do ONESOURCE™ Global Trade, informe seus dados de acesso e clicar em Entrar. Em seguida, a seguinte mensagem será exibida:
-Por fim, o login será concluído e a tela inicial do ONESOURCE™ Global Trade será exibida.
-A Autenticação de Questões de Segurança exige que o usuário responda corretamente a uma pergunta de segurança para fazer login no ONESOURCE™ Global Trade.
-As perguntas de segurança são configuradas na tela de login do ONESOURCE™ Global Trade. Ao informar os dados de acesso e clicar em Entrar, a Autenticação de Questões de Segurança exibirá a seguinte mensagem:
-Por fim, o login será concluído e a tela inicial do ONESOURCE™ Global Trade será exibida.
-Uma vez que a Autenticação de Questões de Segurança foi configurada, o usuário deverá responder corretamente uma pergunta de segurança toda vez que realizar o login no ONESOURCE™ Global Trade.
-O login será concluído e a tela inicial do ONESOURCE™ Global Trade será exibida.
-Para configurar o endereço do destino SOAP e informações de login:
+Caso tenha esquecido a senha, informe o Usuário de acesso e clique na opção "Não consegue acessar sua conta?". Na tela Recuperar Senha, confirme o usuário e clique em Ok. Feito isso, o sistema atribui uma senha temporária para possibilitar o acesso ao sistema. Essa senha é enviada para o e-mail do usuário, que deve alterá-la no acesso seguinte. 
+Após acessar o ONESOURCE™ Global Trade, a página Meus Aplicativos é aberta, exibindo os módulos disponíveis. Clique sob o ícone do aplicativo para acessá-lo.
+Para acessar a tela de pesquisa diretamente, clique neste botão localizado na barra lateral das telas
+Para acessar a tela de resultados diretamente, clique neste botão localizado na barra lateral das telas
+Para acessar a tela de cadastro diretamente, clique neste botão localizado na barra lateral das telas
+A pasta My Reports pode armazenar dashboards específicos do usuário. Quando isso ocorrer, outros usuários não conseguirão acessar esses dashboards. Para salvar um dashboard e deixá-lo acessível a outros usuários, utilize a pasta Customer Reports.
+Para acessar o dashboard:
+Para acessar o dashboard:
+Por meio deste menu é possível verificar a lista de relatórios disponíveis nas soluções ONESOURCE™ Global Trade e acessar a ferramenta de relatórios JReport.
+A pasta My Reports pode armazenar relatórios específicos do usuário. Quando isso ocorrer, outros usuários não conseguirão acessar esses relatórios. Para salvar um relatório e deixá-lo acessível a outros usuários, utilize a pasta Customer Reports.
+	acessar uma lista com as últimas mensagens exibidas pelo ONESOURCE Global Trade para o usuário logado, clicando em Histórico;
+Ao acessar a tela de detalhamento, o usuário poderá consultar as seguintes informações:
+Quando o RPS está integrado a um ERP, para realizar a análise dos parceiros da empresa ele utiliza as informações provenientes do sistema corporativo, encaminhando tais dados ao ACCELUS World Check, World-Check One ou FinScan®. Posteriormente, ao receber o status desse parceiro, o RPS retorna essa informação ao ERP da empresa, para que possa acontecer o bloqueio ou liberação do parceiro em questão, conforme demonstrado no fluxo a seguir:
+O principal benefício do RPS é a utilização das ferramentas de gerenciamento de risco ACCELUS World Check e World-Check One da Thomson Reuters, e FinScan®, da parceira Innovative Systems. As soluções possuem as mais completas e seguras informações de restrição de parceiros (pessoa jurídica) e de seus contatos (pessoa física), com dados de cerca de 240 países.
+Caso tenha esquecido a senha, informe o Usuário de acesso e clique na opção "Não consegue acessar sua conta?". Na tela Recuperar Senha, confirme o usuário e clique em Ok. Feito isso, o sistema atribui uma senha temporária para possibilitar o acesso ao sistema. Essa senha é enviada para o e-mail do usuário, que deve alterá-la no acesso seguinte. 
+2.	Na tela Dashboard, marque o checkbox de um ou mais dashboards que serão apresentados na tela inicial do módulo. Cada dashboard selecionado é contabilizado no campo Selecionados. Para fazer uma busca específica, informe o nome do dashboard no campo Buscar Relatórios;
+Por padrão, o dashboard User é disponibilizado pelo ONERSOURCE™ Global Trade e exibe relatórios e métricas operacionais, tais como: número de parceiros e contatos pendentes de resolução.
+Esta aba é utilizada para informar os contatos existentes para determinado parceiro, isto é, quem é ou quem são as pessoas responsáveis e com quem deve-se entrar em contato para eventuais problemas, dúvidas ou negociações para esse parceiro.
+Trata-se do cadastro das funções dos possíveis contatos que mantêm algum tipo de relação com algum dos parceiros envolvidos nos processos de importação/exportação.
+É provável que, para cada parceiro com quem a empresa mantenha relacionamento, haja uma pessoa responsável por estar em contato no dia-a-dia, trocando e recebendo informações sobre os processos de comércio exterior.
+Esse cadastro é um pré-requisito para o preenchimento de dados de contatos no cadastro de Parceiros.
+Permite consultar a reputação de uma organização ou contato – previamente cadastrado na funcionalidade Parceiro – na Lista Privada, no servidor de análise de risco ACCELUS World Check, World-Check One ou FinScan® e gerenciar seu bloqueio no Restricted Party Screening (RPS) em função de possíveis restrições encontradas. O objetivo é identificar se o parceiro possui características que servem de alerta para a realização de negócios, a fim de, se for o caso, impedir que o importador/exportador realize operações com esse parceiro.
+	É incluído um novo contato para o parceiro;
+	O cadastro de parceiro ou de contato é alterado.
+	"Resolvendo": indica que as combinações de parceiro(s) e contato(s) retornadas estão sendo resolvidas pelo RPS, de acordo com as regras da Resolução Automática de Combinações.
+	"Liberado": status apresentado caso a análise realizada classifique o parceiro e todos os seus contatos com combinações diferentes de "Positiva" + "Alta" ou "Positiva" + "Média". Nesses casos, é considerado que o parceiro não possui restrição.
+	"Bloqueado": status apresentado caso a análise indique que o parceiro ou ao menos um de seus contatos possua a combinação "Positiva" + "Alta" ou "Positiva" + "Média", ou seja, há uma possível restrição. Nesses casos, é possível reavaliar os dados retornados.
+Lista a empresa parceira, bem como seus referidos contatos, devidamente checados na lista privada e solução de análise de restrições. 
+Lista os resultados encontrados na lista privada e na plataforma de screening para o parceiro recém-consultado. Esta tabela é apenas preenchida quando selecionado algum parceiro da tabela Itens para Análise, trazendo os dados das pessoas que são os contatos na empresa parceira. Estes contatos também passam pela análise de restrição e afetam diretamente o status de confiabilidade do parceiro. É por meio do preenchimento os campos Status e Classificação, explicados a seguir, que o serviço de análise irá definir o risco de fazer negócios com o parceiro consultado.
+Assim como a Análise de Restrição de Parceiros, a presente funcionalidade permite consultar a reputação de um parceiro na Lista Privada e no servidor de análise de risco ACCELUS World Check, World-Check One ou FinScan®. A Pesquisa de Parceiro, por sua vez, amplia essa busca; e permite que sejam consultadas livremente organizações, parceiros e contatos que não estão previamente cadastrados na funcionalidade Parceiro.
+Uma vez que os dados de uma Lista Privada são cadastrados no módulo RPS e uma consulta de restrições é realizada, as proibições e sanções das empresas e/ou seus contatos são apresentadas. Consulte o tópico Fluxo das informações no RPS para mais informações sobre este processo.
+O Primary Axis caracteriza os campos que podem ser sumarizados, representando funções no gráfico, como contadores (count), somas (sum), médias (average), valor máximo (max), valor mínimo (min) etc. Já o X-Axis configura as diferentes barras distribuídas horizontalmente no gráfico, como o mês da data da fatura. E, por último, o Stacking corresponde às diferentes categorias acumuladas em cada barra do gráfico, como o status da fatura.
+Este relatório exibe todos os parceiros e contatos cadastrados no RPS, bem como seu país, status RPS, número de combinações, chave da pesquisa no servidor de análise de risco (coluna Tax ID Number), entre outras informações.
+Esta área de negócio está relacionada ao campo da contabilidade preocupado com o resumo, a análise e o relato de transações financeiras relativas ao negócio. Isso envolve a preparação de demonstrações financeiras disponíveis para o público. Acionistas, fornecedores, bancos, funcionários, agências governamentais e proprietários de empresas são exemplos de pessoas interessadas em receber essas informações para fins de tomada de decisão.
